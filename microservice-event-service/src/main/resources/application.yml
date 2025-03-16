@@ -1,9 +1,9 @@
 server:
-  port: 8080
+  port: 8090
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/microservice-user?createDatabaseIfNotExist=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/microservice-event?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: root
     #password: yourpassword
     driver-class-name: com.mysql.cj.jdbc.Driver
